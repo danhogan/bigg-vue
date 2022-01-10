@@ -70,6 +70,10 @@ export default {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 
     margin-bottom: 2em;
+
+    @media only screen and (max-width: 1000px) {
+        grid-template-columns: 1fr;
+    }
 }
 
 #flavor-town > * {
